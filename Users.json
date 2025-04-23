@@ -1,0 +1,29 @@
+{
+  "vedat": {
+    "userId": "901caf0f",
+    "username": "vedat",
+    "password": "1234",
+    "fullName": "vedat zeybek",
+    "email": "vedatzeybek20@gmail.com",
+    "phoneNumber": "5454762136",
+    "balance": 0
+  },
+  "umur": {
+    "userId": "9f557df4",
+    "username": "umur",
+    "password": "1234",
+    "fullName": "umur uysal",
+    "email": "21332312",
+    "phoneNumber": "5454762136",
+    "balance": 0
+  },
+  "ved": {
+    "userId": "f77802bd",
+    "username": "ved",
+    "password": "Vedat123$",
+    "fullName": "vedat zeybek",
+    "email": "vedatzeybek@gmail.com",
+    "phoneNumber": "05454762136",
+    "balance": 0
+  }
+}
