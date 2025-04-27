@@ -1,6 +1,5 @@
 package main;
 
-import modal.*;
 
 import java.util.*;
 
@@ -21,7 +20,6 @@ import java.io.Reader;
 import com.google.gson.reflect.TypeToken;
 
 import modal.Reservation;
-import service.*;
 
 import java.io.Writer;
 import java.lang.reflect.Type;
@@ -36,9 +34,38 @@ public class ReservationManager {
         this.reservations = new TreeSet<>();
     }
 
-    public void addReservation(Reservation reservation) {
-        reservations.add(reservation);
+    public boolean addReservation(Reservation reservation) {
+        if (isFieldAvailable(reservation.getFieldCode(), reservation.getStartTime(), reservation.getEndTime())) {
+            reservations.add(reservation);
+            System.out.println("[System] ✅ Reservation added successfully.");
+            return true;
+        } else {
+            System.out.println("[System] ❌ Reservation conflicts with an existing booking for field: " 
+                + reservation.getFieldName() + " at time: " 
+                + reservation.getStartTime().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm")));
+            return false;
+        }
     }
+    
+
+    public boolean isFieldAvailable(String fieldCode, LocalDateTime startTime, LocalDateTime endTime) {
+    // Tüm rezervasyonları kontrol et
+    for (Reservation reservation : reservations) {
+        // Sadece aynı saha için kontrole bak
+        if (reservation.getFieldCode().equals(fieldCode)) {
+            // Zaman çakışması kontrolü
+            boolean overlap = (
+                (startTime.isBefore(reservation.getEndTime()) || startTime.equals(reservation.getEndTime())) &&
+                (endTime.isAfter(reservation.getStartTime()) || endTime.equals(reservation.getStartTime()))
+            );
+            
+            if (overlap) {
+                return false; // Saha dolu, çakışma var
+            }
+        }
+    }
+    return true; // Saha müsait
+}
 
     public List<Reservation> getUserReservations(String userId) {
         List<Reservation> userReservations = new ArrayList<>();
@@ -129,5 +156,8 @@ class LocalDateTimeAdapter implements JsonSerializer<LocalDateTime>, JsonDeseria
     public LocalDateTime deserialize(JsonElement json, Type typeOfT, JsonDeserializationContext context)
             throws JsonParseException {
         return LocalDateTime.parse(json.getAsString(), DateTimeFormatter.ISO_LOCAL_DATE_TIME);
+   }
+
+
 }
-}
+

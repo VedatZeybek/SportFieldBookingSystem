@@ -33,6 +33,11 @@ public class main {
                 running = authService.showLoginMenu(scanner);
             } else {
                 menuService.showMainMenu(scanner);
+                if (!authService.isUserLoggedIn()) {
+                    continue;
+                } else {
+                    running = false;
+                }
             }
         }
         

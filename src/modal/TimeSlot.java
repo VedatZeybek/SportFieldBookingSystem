@@ -1,4 +1,4 @@
-package service;
+package modal;
 
 
 import java.time.LocalDateTime;

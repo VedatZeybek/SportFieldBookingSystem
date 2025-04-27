@@ -7,6 +7,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+import modal.TimeSlot;
+
 public class TimeSlotService {
     
     public TimeSlot selectTimeSlot(Scanner scanner) {

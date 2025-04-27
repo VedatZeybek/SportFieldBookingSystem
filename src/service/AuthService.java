@@ -30,7 +30,7 @@ public class AuthService {
             choice = Integer.parseInt(input);
         } catch (NumberFormatException e) {
             System.out.println("Invalid input. Please enter a number.");
-            showLoginMenu(scanner);
+            return true;
         }
         
         switch (choice) {
@@ -43,6 +43,7 @@ public class AuthService {
             case 0:
                 return false;
             default:
+            	System.out.println("Invalid input. Please enter a number.");
                 return true;
         }
     }

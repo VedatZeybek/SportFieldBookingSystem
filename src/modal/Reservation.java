@@ -1,11 +1,9 @@
 package modal;
-
 import java.util.*;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-
-public class Reservation {
+public class Reservation implements Comparable<Reservation> {
     private String reservationId;
     private String userId;
     private String fieldCode;
@@ -30,15 +28,33 @@ public class Reservation {
     }
     
     // Getter metodları
-    public String getReservationId() { return reservationId; }
-    public String getUserId() { return userId; }
-    public String getFieldCode() { return fieldCode; }
-    public String getFieldName() { return fieldName; }
-    public String getFacilityName() { return facilityName; }
-    public SportType getSportType() { return sportType; }
-    public LocalDateTime getStartTime() { return startTime; }
-    public LocalDateTime getEndTime() { return endTime; }
-    public int getFee() { return fee; }
+    public String getReservationId() {
+    	return reservationId; 
+    }
+    public String getUserId() { 
+    	return userId; 
+    }
+    public String getFieldCode() { 
+    	return fieldCode; 
+    }
+    public String getFieldName() { 
+    	return fieldName; 
+    }
+    public String getFacilityName() { 
+    	return facilityName; 
+    }
+    public SportType getSportType() { 
+    	return sportType; 
+    }
+    public LocalDateTime getStartTime() { 
+    	return startTime; 
+    }
+    public LocalDateTime getEndTime() { 
+    	return endTime; 
+    }
+    public int getFee() { 
+    	return fee; 
+    }
     
     @Override
     public String toString() {
@@ -46,5 +62,16 @@ public class Reservation {
         return String.format("Reservation #%s\nField: %s at %s\nTime: %s to %s\nFee: ₺%d",
                 reservationId, fieldName, facilityName, 
                 startTime.format(formatter), endTime.format(formatter), fee);
+    }
+    
+    @Override
+    public int compareTo(Reservation other) {
+        // Önce saha koduna göre sıralama
+        int fieldCodeComparison = this.fieldCode.compareTo(other.fieldCode);
+        if (fieldCodeComparison != 0) {
+            return fieldCodeComparison;
+        }
+        // Saha kodu aynıysa, başlangıç zamanına göre sıralama
+        return this.startTime.compareTo(other.startTime);
     }
 }

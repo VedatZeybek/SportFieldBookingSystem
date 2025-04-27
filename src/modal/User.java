@@ -22,16 +22,45 @@ public class User {
 	}
 
 	// Getter ve setter metodları
-	public String getUserId() { return userId; }
-	public String getUsername() { return username; }
-	public boolean checkPassword(String password) { return this.password.equals(password); }
-	public String getFullName() { return fullName; }
-	public void setFullName(String fullName) { this.fullName = fullName; }
-	public String getEmail() { return email; }
-	public void setEmail(String email) { this.email = email; }
-	public String getPhoneNumber() { return phoneNumber; }
-	public void setPhoneNumber(String phoneNumber) { this.phoneNumber = phoneNumber; }
-	public int getBalance() { return balance; }
+	public String getUserId() { 
+		return userId; 
+		}
+	
+	public String getUsername() { 
+		return username; 
+		}
+	
+	public boolean checkPassword(String password) { 
+		return this.password.equals(password); 
+		}
+	
+	public String getFullName() { 
+		return fullName; 
+		}
+	
+	public void setFullName(String fullName) { 
+		this.fullName = fullName; 
+		}
+	
+	public String getEmail() { 
+		return email; 
+		}
+	
+	public void setEmail(String email) { 
+		this.email = email; 
+		}
+	
+	public String getPhoneNumber() { 
+		return phoneNumber; 
+		}
+	
+	public void setPhoneNumber(String phoneNumber) { 
+		this.phoneNumber = phoneNumber; 
+		}
+	
+	public int getBalance() { 
+		return balance; 
+		}
 
 	public void addToBalance(int amount) {
 		if (amount > 0) {

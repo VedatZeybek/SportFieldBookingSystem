@@ -41,7 +41,7 @@ public class MenuService {
                 choice = Integer.parseInt(input);
             } catch (NumberFormatException e) {
                 System.out.println("Invalid input. Please enter a number.");
-                continue; // Menüye dön
+                continue ; // Menüye dön
             }
 
             switch (choice) {

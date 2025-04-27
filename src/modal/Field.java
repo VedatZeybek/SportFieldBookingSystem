@@ -13,9 +13,23 @@ public class Field {
         this.isAvailable = true;
     }
 
-    public boolean isAvailable() { return isAvailable; }
-    public void reserve() { this.isAvailable = false; }
-    public String getCode() { return code; }
-    public String getName() { return name; }
-    public int getPrice() { return price; }
+    public boolean isAvailable() {
+    	return isAvailable; 
+    	}
+    
+    public void reserve() {
+    	this.isAvailable = false; 
+    	}
+    
+    public String getCode() { 
+    	return code; 
+    	}
+    
+    public String getName() { 
+    	return name; 
+    	}
+    
+    public int getPrice() { 
+    	return price; 
+    	}
 }

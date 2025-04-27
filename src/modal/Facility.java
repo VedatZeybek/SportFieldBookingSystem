@@ -13,8 +13,14 @@ public class Facility {
         this.fields = new LinkedList<>();
     }
 
-    public void addField(Field field) { fields.add(field); }
-    public String getName() { return name; }
+    public void addField(Field field) {
+    	fields.add(field); 
+    	}
+    
+    public String getName() {
+    	return name; 
+    	}
+    
     public List<Field> getAvailableFields() {
         List<Field> available = new ArrayList<>();
         for (Field f : fields) if (f.isAvailable()) available.add(f);
