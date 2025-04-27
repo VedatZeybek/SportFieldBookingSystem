@@ -23,7 +23,7 @@ public class Facility {
     
     public List<Field> getAvailableFields() {
         List<Field> available = new ArrayList<>();
-        for (Field f : fields) if (f.isAvailable()) available.add(f);
+        for (Field f : fields)  available.add(f);
         return available;
     }
 }

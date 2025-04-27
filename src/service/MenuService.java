@@ -1,6 +1,8 @@
 package service;
 
 import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
+
 
 import main.UserManager;
 import modal.User;
@@ -47,15 +49,27 @@ public class MenuService {
             switch (choice) {
                 case 1:
                     bookingService.bookField(scanner);
+                    System.out.println("Wait... If Menu did Not Shown Press Enter to continue...");
+                    scanner.nextLine();
+                    timeSleepMethod();
                     break;
                 case 2:
                     bookingService.viewReservations();
+                    System.out.println("Wait... If Menu did Not Shown Press Enter to continue...");
+                    scanner.nextLine();
+                    timeSleepMethod();
                     break;
                 case 3:
                     userService.addBalance(scanner);
+                    System.out.println("Wait... If Menu did Not Shown Press Enter to continue...");
+                    scanner.nextLine();
+                    timeSleepMethod();
                     break;
                 case 4:
                     userService.editProfile(scanner);
+                    System.out.println("Wait... If Menu did Not Shown Press Enter to continue...");
+                    scanner.nextLine();
+                    timeSleepMethod();
                     break;
                 case 9:
                     authService.logout();
@@ -67,5 +81,14 @@ public class MenuService {
                     System.out.println("Invalid option. Please choose a valid menu item.");
             }
         }
+    }
+    
+    private void timeSleepMethod()
+    {
+    	try {
+    	    TimeUnit.SECONDS.sleep(1); // 1 saniye durur
+    	} catch (InterruptedException e) {
+    	    e.printStackTrace();
+    	}
     }
 }

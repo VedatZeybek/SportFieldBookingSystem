@@ -1,8 +1,8 @@
 [
   {
-    "reservationId": "d8ce6f99",
+    "reservationId": "7537429b",
     "userId": "901caf0f",
-    "fieldCode": "741ABC",
+    "fieldCode": "07FBEB",
     "fieldName": "BOSTANCI SAHİL SPOR TESİSİ-HALI SAHA 1",
     "facilityName": "BOSTANCI SAHİL SPOR TESİSİ",
     "sportType": "FUTBOL",
@@ -11,11 +11,11 @@
     "fee": 3000
   },
   {
-    "reservationId": "806df80c",
+    "reservationId": "4ec6627c",
     "userId": "901caf0f",
-    "fieldCode": "A885A5",
-    "fieldName": "BOSTANCI SAHİL SPOR TESİSİ-HALI SAHA 1",
-    "facilityName": "BOSTANCI SAHİL SPOR TESİSİ",
+    "fieldCode": "1C2672",
+    "fieldName": "TUZLA SAHİL SPOR TESİSİ-HALI SAHA 2",
+    "facilityName": "TUZLA SAHİL SPOR TESİSİ",
     "sportType": "FUTBOL",
     "startTime": "2025-04-27T18:00:00",
     "endTime": "2025-04-27T19:00:00",

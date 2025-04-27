@@ -73,7 +73,6 @@ public class BookingService {
         
         
         // 7. Rezervasyon oluştur
-        selectedField.reserve();
         currentUser.deductFromBalance(fieldPrice);
 
         reservationCreationService.createReservation(

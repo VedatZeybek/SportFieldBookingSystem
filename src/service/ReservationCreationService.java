@@ -31,10 +31,11 @@ public class ReservationCreationService {
             fee
         );
         
-        reservationManager.addReservation(reservation);
-        
-        // Başarılı rezervasyon mesajını göster
-        displayReservationConfirmation(field.getName(), startTime, endTime, fee, user.getBalance());
+        if (reservationManager.addReservation(reservation))
+        {
+        	// Başarılı rezervasyon mesajını göster
+        	displayReservationConfirmation(field.getName(), startTime, endTime, fee, user.getBalance());
+        }
     }
     
     private void displayReservationConfirmation(String fieldName, LocalDateTime startTime, 

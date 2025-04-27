@@ -49,23 +49,19 @@ public class ReservationManager {
     
 
     public boolean isFieldAvailable(String fieldCode, LocalDateTime startTime, LocalDateTime endTime) {
-    // Tüm rezervasyonları kontrol et
-    for (Reservation reservation : reservations) {
-        // Sadece aynı saha için kontrole bak
-        if (reservation.getFieldCode().equals(fieldCode)) {
-            // Zaman çakışması kontrolü
-            boolean overlap = (
-                (startTime.isBefore(reservation.getEndTime()) || startTime.equals(reservation.getEndTime())) &&
-                (endTime.isAfter(reservation.getStartTime()) || endTime.equals(reservation.getStartTime()))
-            );
-            
-            if (overlap) {
-                return false; // Saha dolu, çakışma var
+        for (Reservation reservation : reservations) {
+            if (reservation.getFieldCode().equals(fieldCode)) {
+                // Çakışma: Yeni rezervasyonun başlangıcı, mevcut rezervasyonun bitişinden önce
+                // ve yeni rezervasyonun bitişi, mevcut rezervasyonun başlangıcından sonra
+                boolean overlap = !(endTime.isBefore(reservation.getStartTime()) || 
+                                   startTime.isAfter(reservation.getEndTime()));
+                if (overlap) {
+                    return false;
+                }
             }
         }
+        return true;
     }
-    return true; // Saha müsait
-}
 
     public List<Reservation> getUserReservations(String userId) {
         List<Reservation> userReservations = new ArrayList<>();
@@ -110,7 +106,16 @@ public class ReservationManager {
             reader.close();
 
             this.reservations = new TreeSet<>();
-            if (list != null) this.reservations.addAll(list);
+            if (list != null) {
+                for (Reservation reservation : list) {
+                    if (isFieldAvailable(reservation.getFieldCode(), reservation.getStartTime(), reservation.getEndTime())) {
+                        this.reservations.add(reservation);
+                    } else {
+                        System.out.println("[System] ⚠️ Skipped reservation #" + reservation.getReservationId() 
+                            + " due to conflict for field: " + reservation.getFieldName());
+                    }
+                }
+            }
             System.out.println("[System] ✅ Reservations loaded successfully.");
         } catch (IOException e) {
             System.err.println("❌ Error loading reservations from JSON: " + e.getMessage());
