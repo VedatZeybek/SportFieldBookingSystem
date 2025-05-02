@@ -5,7 +5,7 @@ import java.util.UUID;
 public class User {
 	private String userId;
 	private String username;
-	private String password; // Gerçek uygulamada şifreyi hashlenmiş şekilde saklayın
+	private String password;
 	private String fullName;
 	private String email;
 	private String phoneNumber;

@@ -25,23 +25,5 @@
     "email": "vedatzeybek@gmail.com",
     "phoneNumber": "05454762136",
     "balance": 0
-  },
-  "goktuk": {
-    "userId": "b3b3cca0",
-    "username": "goktuk",
-    "password": "Goktuk123$",
-    "fullName": "goktuk denizhan celik",
-    "email": "sldflfsd@gmail.com",
-    "phoneNumber": "5554443322",
-    "balance": 0
-  },
-  "Vedat": {
-    "userId": "c1c97c24",
-    "username": "Vedat",
-    "password": "Vedat123#",
-    "fullName": "Vedat Zeybek",
-    "email": "vedatzeybek20@gmail.com",
-    "phoneNumber": "05454762136",
-    "balance": 1500
   }
 }

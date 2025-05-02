@@ -20,16 +20,5 @@
     "startTime": "2025-04-27T18:00:00",
     "endTime": "2025-04-27T19:00:00",
     "fee": 3000
-  },
-  {
-    "reservationId": "02449db2",
-    "userId": "c1c97c24",
-    "fieldCode": "BAAA9A",
-    "fieldName": "İBB Beyoğlu Stad - Stad",
-    "facilityName": "İBB Beyoğlu Stad",
-    "sportType": "STAD_KIRALAMA",
-    "startTime": "2025-05-01T18:00:00",
-    "endTime": "2025-05-01T19:00:00",
-    "fee": 4000
   }
 ]

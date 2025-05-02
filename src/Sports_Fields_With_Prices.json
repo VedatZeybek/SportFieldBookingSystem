@@ -1,0 +1,872 @@
+[
+  {
+    "sport_type": "FUTBOL",
+    "original_field": "BOSTANCI SAHİL SPOR TESİSİ-HALI SAHA 1",
+    "facility_name": "BOSTANCI SAHİL SPOR TESİSİ",
+    "price": 3000
+  },
+  {
+    "sport_type": "FUTBOL",
+    "original_field": "CEMAL KAMACI SPOR KOMPLEKSİ-HALI SAHA 1",
+    "facility_name": "CEMAL KAMACI SPOR KOMPLEKSİ",
+    "price": 3000
+  },
+  {
+    "sport_type": "FUTBOL",
+    "original_field": "EDİRNEKAPI SPOR TESİSİ-HALI SAHA",
+    "facility_name": "EDİRNEKAPI SPOR TESİSİ",
+    "price": 3000
+  },
+  {
+    "sport_type": "FUTBOL",
+    "original_field": "FLORYA SPOR TESİSİ-HALI SAHA 1",
+    "facility_name": "FLORYA SPOR TESİSİ",
+    "price": 3000
+  },
+  {
+    "sport_type": "FUTBOL",
+    "original_field": "FLORYA SPOR TESİSİ-HALI SAHA 2",
+    "facility_name": "FLORYA SPOR TESİSİ",
+    "price": 3000
+  },
+  {
+    "sport_type": "FUTBOL",
+    "original_field": "HAKKI BAŞAR SPOR KOMPLEKSİ-HALI SAHA 1",
+    "facility_name": "HAKKI BAŞAR SPOR KOMPLEKSİ",
+    "price": 3000
+  },
+  {
+    "sport_type": "FUTBOL",
+    "original_field": "HALDUN ALAGAŞ SPOR KOMPLEKSİ-HALI SAHA 1",
+    "facility_name": "HALDUN ALAGAŞ SPOR KOMPLEKSİ",
+    "price": 3000
+  },
+  {
+    "sport_type": "FUTBOL",
+    "original_field": "HALİÇ SPOR PARKI-AÇIK HALI SAHA 1",
+    "facility_name": "HALİÇ SPOR PARKI",
+    "price": 3000
+  },
+  {
+    "sport_type": "FUTBOL",
+    "original_field": "HAMZA YERLİKAYA SPOR KOMPLEKSİ-AÇIK HALI SAHA 2",
+    "facility_name": "HAMZA YERLİKAYA SPOR KOMPLEKSİ",
+    "price": 3000
+  },
+  {
+    "sport_type": "FUTBOL",
+    "original_field": "HAMZA YERLİKAYA SPOR KOMPLEKSİ-KAPALI HALI SAHA 1",
+    "facility_name": "HAMZA YERLİKAYA SPOR KOMPLEKSİ",
+    "price": 3000
+  },
+  {
+    "sport_type": "FUTBOL",
+    "original_field": "HEYBELİ ADA-HALI SAHA",
+    "facility_name": "HEYBELİ ADA",
+    "price": 3000
+  },
+  {
+    "sport_type": "FUTBOL",
+    "original_field": "HİDAYET TÜRKOĞLU SPOR TESİSİ-HALI SAHA 1",
+    "facility_name": "HİDAYET TÜRKOĞLU SPOR TESİSİ",
+    "price": 3000
+  },
+  {
+    "sport_type": "FUTBOL",
+    "original_field": "HİDAYET TÜRKOĞLU SPOR TESİSİ-HALI SAHA 2",
+    "facility_name": "HİDAYET TÜRKOĞLU SPOR TESİSİ",
+    "price": 3000
+  },
+  {
+    "sport_type": "FUTBOL",
+    "original_field": "KAYNARCA SPOR TESİSİ-HALI SAHA 1",
+    "facility_name": "KAYNARCA SPOR TESİSİ",
+    "price": 3000
+  },
+  {
+    "sport_type": "FUTBOL",
+    "original_field": "KAYNARCA SPOR TESİSİ-HALI SAHA 2",
+    "facility_name": "KAYNARCA SPOR TESİSİ",
+    "price": 3000
+  },
+  {
+    "sport_type": "FUTBOL",
+    "original_field": "MALTEPE SAHİL SPOR TESİSİ-HALI SAHA 1",
+    "facility_name": "MALTEPE SAHİL SPOR TESİSİ",
+    "price": 3000
+  },
+  {
+    "sport_type": "FUTBOL",
+    "original_field": "MALTEPE SAHİL SPOR TESİSİ-HALI SAHA 2",
+    "facility_name": "MALTEPE SAHİL SPOR TESİSİ",
+    "price": 3000
+  },
+  {
+    "sport_type": "FUTBOL",
+    "original_field": "METİN OKTAY SPOR TESİSİ-HALI SAHA 1",
+    "facility_name": "METİN OKTAY SPOR TESİSİ",
+    "price": 3000
+  },
+  {
+    "sport_type": "FUTBOL",
+    "original_field": "PENDİK ÇAMLIK SPOR TESİSİ-KAPALI HALI SAHA 1",
+    "facility_name": "PENDİK ÇAMLIK SPOR TESİSİ",
+    "price": 3000
+  },
+  {
+    "sport_type": "FUTBOL",
+    "original_field": "PENDİK ÇAMLIK SPOR TESİSİ-KAPALI HALI SAHA 2",
+    "facility_name": "PENDİK ÇAMLIK SPOR TESİSİ",
+    "price": 3000
+  },
+  {
+    "sport_type": "FUTBOL",
+    "original_field": "PENDİK KURTKÖY SPOR KOMPLEKSİ-HALI SAHA 1",
+    "facility_name": "PENDİK KURTKÖY SPOR KOMPLEKSİ",
+    "price": 3000
+  },
+  {
+    "sport_type": "FUTBOL",
+    "original_field": "PENDİK KURTKÖY SPOR KOMPLEKSİ-HALI SAHA 2",
+    "facility_name": "PENDİK KURTKÖY SPOR KOMPLEKSİ",
+    "price": 3000
+  },
+  {
+    "sport_type": "FUTBOL",
+    "original_field": "PENDİK SAHİL SPOR TESİSİ-HALI SAHA 1",
+    "facility_name": "PENDİK SAHİL SPOR TESİSİ",
+    "price": 3000
+  },
+  {
+    "sport_type": "FUTBOL",
+    "original_field": "PENDİK SAHİL SPOR TESİSİ-HALI SAHA 2",
+    "facility_name": "PENDİK SAHİL SPOR TESİSİ",
+    "price": 3000
+  },
+  {
+    "sport_type": "FUTBOL",
+    "original_field": "SİLİVRİ MÜJDAT GÜRSU SPOR TESİSİ-HALI SAHA 1",
+    "facility_name": "SİLİVRİ MÜJDAT GÜRSU SPOR TESİSİ",
+    "price": 3000
+  },
+  {
+    "sport_type": "FUTBOL",
+    "original_field": "SİLİVRİ MÜJDAT GÜRSU SPOR TESİSİ-HALI SAHA 2",
+    "facility_name": "SİLİVRİ MÜJDAT GÜRSU SPOR TESİSİ",
+    "price": 3000
+  },
+  {
+    "sport_type": "FUTBOL",
+    "original_field": "SULTANBEYLİ 100. YIL SPOR KOMPLEKSİ-KAPALI HALI SAHA 1",
+    "facility_name": "SULTANBEYLİ 100. YIL SPOR KOMPLEKSİ",
+    "price": 3000
+  },
+  {
+    "sport_type": "FUTBOL",
+    "original_field": "SULTANBEYLİ 100. YIL SPOR KOMPLEKSİ-KAPALI HALI SAHA 2",
+    "facility_name": "SULTANBEYLİ 100. YIL SPOR KOMPLEKSİ",
+    "price": 3000
+  },
+  {
+    "sport_type": "FUTBOL",
+    "original_field": "SULTANBEYLİ GÖLET SPOR TESİSİ-AÇIK HALI SAHA 1",
+    "facility_name": "SULTANBEYLİ GÖLET SPOR TESİSİ",
+    "price": 3000
+  },
+  {
+    "sport_type": "FUTBOL",
+    "original_field": "SULTANBEYLİ GÖLET SPOR TESİSİ-KAPALI HALI SAHA 2",
+    "facility_name": "SULTANBEYLİ GÖLET SPOR TESİSİ",
+    "price": 3000
+  },
+  {
+    "sport_type": "FUTBOL",
+    "original_field": "SULTANGAZİ GAZİ SPORT TESİSİ-AÇIK HALI SAHA",
+    "facility_name": "SULTANGAZİ GAZİ SPORT TESİSİ",
+    "price": 3000
+  },
+  {
+    "sport_type": "FUTBOL",
+    "original_field": "ŞİLE SPOR KOMPLEKSİ-HALI SAHA",
+    "facility_name": "ŞİLE SPOR KOMPLEKSİ",
+    "price": 3000
+  },
+  {
+    "sport_type": "FUTBOL",
+    "original_field": "TEVFİK AYDENİZ SPOR TESİSİ-HALI SAHA 1",
+    "facility_name": "TEVFİK AYDENİZ SPOR TESİSİ",
+    "price": 3000
+  },
+  {
+    "sport_type": "FUTBOL",
+    "original_field": "TUZLA KAFKALE SPOR KOMPLEKSİ-AÇIK HALI SAHA 2",
+    "facility_name": "TUZLA KAFKALE SPOR KOMPLEKSİ",
+    "price": 3000
+  },
+  {
+    "sport_type": "FUTBOL",
+    "original_field": "TUZLA KAFKALE SPOR KOMPLEKSİ-KAPALI HALI SAHA 3",
+    "facility_name": "TUZLA KAFKALE SPOR KOMPLEKSİ",
+    "price": 3000
+  },
+  {
+    "sport_type": "FUTBOL",
+    "original_field": "TUZLA KAFKALE SPOR KOMPLEKSİ-KAPALI HALI SAHA 1",
+    "facility_name": "TUZLA KAFKALE SPOR KOMPLEKSİ",
+    "price": 3000
+  },
+  {
+    "sport_type": "FUTBOL",
+    "original_field": "TUZLA SAHİL SPOR TESİSİ-HALI SAHA 1",
+    "facility_name": "TUZLA SAHİL SPOR TESİSİ",
+    "price": 3000
+  },
+  {
+    "sport_type": "FUTBOL",
+    "original_field": "TUZLA SAHİL SPOR TESİSİ-HALI SAHA 2",
+    "facility_name": "TUZLA SAHİL SPOR TESİSİ",
+    "price": 3000
+  },
+  {
+    "sport_type": "BASKET-VOLEYBOL",
+    "original_field": "AVCILAR SPOR KOMPLEKSİ-KAPALI SALON 1",
+    "facility_name": "AVCILAR SPOR KOMPLEKSİ",
+    "price": 1800
+  },
+  {
+    "sport_type": "BASKET-VOLEYBOL",
+    "original_field": "AVCILAR SPOR KOMPLEKSİ-KAPALI SALON 2",
+    "facility_name": "AVCILAR SPOR KOMPLEKSİ",
+    "price": 1800
+  },
+  {
+    "sport_type": "BASKET-VOLEYBOL",
+    "original_field": "BAYRAMPAŞA SPOR KOMPLEKSİ-KAPALI SALON",
+    "facility_name": "BAYRAMPAŞA SPOR KOMPLEKSİ",
+    "price": 1800
+  },
+  {
+    "sport_type": "BASKET-VOLEYBOL",
+    "original_field": "ÇEKMEKÖY SPOR KOMPLEKSİ-KAPALI SALON",
+    "facility_name": "ÇEKMEKÖY SPOR KOMPLEKSİ",
+    "price": 1800
+  },
+  {
+    "sport_type": "BASKET-VOLEYBOL",
+    "original_field": "ESENLER SPOR KOMPLEKSİ-KAPALI SALON",
+    "facility_name": "ESENLER SPOR KOMPLEKSİ",
+    "price": 1800
+  },
+  {
+    "sport_type": "BASKET-VOLEYBOL",
+    "original_field": "HAKKI BAŞAR SPOR KOMPLEKSİ-KAPALI SALON",
+    "facility_name": "HAKKI BAŞAR SPOR KOMPLEKSİ",
+    "price": 1800
+  },
+  {
+    "sport_type": "BASKET-VOLEYBOL",
+    "original_field": "HAMZA YERLİKAYA SPOR KOMPLEKSİ-KAPALI SALON",
+    "facility_name": "HAMZA YERLİKAYA SPOR KOMPLEKSİ",
+    "price": 1800
+  },
+  {
+    "sport_type": "BASKET-VOLEYBOL",
+    "original_field": "KARTAL HASAN DOĞAN SPOR KOMPLEKSİ-KAPALI SALON",
+    "facility_name": "KARTAL HASAN DOĞAN SPOR KOMPLEKSİ",
+    "price": 1800
+  },
+  {
+    "sport_type": "BASKET-VOLEYBOL",
+    "original_field": "METİN OKTAY SPOR TESİSİ-KAPALI SALON 1",
+    "facility_name": "METİN OKTAY SPOR TESİSİ",
+    "price": 1800
+  },
+  {
+    "sport_type": "BASKET-VOLEYBOL",
+    "original_field": "METİN OKTAY SPOR TESİSİ-KAPALI SALON 2",
+    "facility_name": "METİN OKTAY SPOR TESİSİ",
+    "price": 1800
+  },
+  {
+    "sport_type": "BASKET-VOLEYBOL",
+    "original_field": "TAHA AKGÜL SPOR KOMPLEKSİ-KAPALI SALON",
+    "facility_name": "TAHA AKGÜL SPOR KOMPLEKSİ",
+    "price": 1800
+  },
+  {
+    "sport_type": "BASKET-VOLEYBOL",
+    "original_field": "TEVFİK AYDENİZ SPOR TESİSİ-KAPALI SALON",
+    "facility_name": "TEVFİK AYDENİZ SPOR TESİSİ",
+    "price": 1800
+  },
+  {
+    "sport_type": "BASKET-VOLEYBOL",
+    "original_field": "TUZLA KAFKALE SPOR KOMPLEKSİ-KAPALI SALON 1",
+    "facility_name": "TUZLA KAFKALE SPOR KOMPLEKSİ",
+    "price": 1800
+  },
+  {
+    "sport_type": "BASKET-VOLEYBOL",
+    "original_field": "TUZLA KAFKALE SPOR KOMPLEKSİ-KAPALI SALON 2",
+    "facility_name": "TUZLA KAFKALE SPOR KOMPLEKSİ",
+    "price": 1800
+  },
+  {
+    "sport_type": "BASKET-VOLEYBOL",
+    "original_field": "TUZLA KAFKALE SPOR KOMPLEKSİ-KAPALI HALI SAHA 3",
+    "facility_name": "TUZLA KAFKALE SPOR KOMPLEKSİ",
+    "price": 1800
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "75. YIL YÜZME HAVUZU-MASA 1",
+    "facility_name": "75. YIL YÜZME HAVUZU",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "BAHÇELİEVLER SPOR KOMPLEKSİ-MASA 1",
+    "facility_name": "BAHÇELİEVLER SPOR KOMPLEKSİ",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "BAHÇELİEVLER SPOR KOMPLEKSİ-MASA 2",
+    "facility_name": "BAHÇELİEVLER SPOR KOMPLEKSİ",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "BAYRAMPAŞA SPOR KOMPLEKSİ-MASA 1",
+    "facility_name": "BAYRAMPAŞA SPOR KOMPLEKSİ",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "BAYRAMPAŞA SPOR KOMPLEKSİ-MASA 2",
+    "facility_name": "BAYRAMPAŞA SPOR KOMPLEKSİ",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "BAYRAMPAŞA SPOR KOMPLEKSİ-MASA 3",
+    "facility_name": "BAYRAMPAŞA SPOR KOMPLEKSİ",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "BAYRAMPAŞA SPOR KOMPLEKSİ-MASA 4",
+    "facility_name": "BAYRAMPAŞA SPOR KOMPLEKSİ",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "BAYRAMPAŞA SPOR KOMPLEKSİ-MASA 5",
+    "facility_name": "BAYRAMPAŞA SPOR KOMPLEKSİ",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "BAYRAMPAŞA SPOR KOMPLEKSİ-MASA 6",
+    "facility_name": "BAYRAMPAŞA SPOR KOMPLEKSİ",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "BAYRAMPAŞA SPOR KOMPLEKSİ-MASA 7",
+    "facility_name": "BAYRAMPAŞA SPOR KOMPLEKSİ",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "BAYRAMPAŞA SPOR KOMPLEKSİ-MASA 8",
+    "facility_name": "BAYRAMPAŞA SPOR KOMPLEKSİ",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "BEYKOZ SPOR KOMPLEKSİ-MASA 1",
+    "facility_name": "BEYKOZ SPOR KOMPLEKSİ",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "BEYKOZ SPOR KOMPLEKSİ-MASA 2",
+    "facility_name": "BEYKOZ SPOR KOMPLEKSİ",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "BEYKOZ SPOR KOMPLEKSİ-MASA 3",
+    "facility_name": "BEYKOZ SPOR KOMPLEKSİ",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "CEMAL KAMACI SPOR KOMPLEKSİ-MASA 1",
+    "facility_name": "CEMAL KAMACI SPOR KOMPLEKSİ",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "CEMAL KAMACI SPOR KOMPLEKSİ-MASA 2",
+    "facility_name": "CEMAL KAMACI SPOR KOMPLEKSİ",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "ÇEKMEKÖY SPOR KOMPLEKSİ-MASA 1",
+    "facility_name": "ÇEKMEKÖY SPOR KOMPLEKSİ",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "ÇEKMEKÖY SPOR KOMPLEKSİ-MASA 2",
+    "facility_name": "ÇEKMEKÖY SPOR KOMPLEKSİ",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "ÇEKMEKÖY SPOR KOMPLEKSİ-MASA 3",
+    "facility_name": "ÇEKMEKÖY SPOR KOMPLEKSİ",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "HAKKI BAŞAR SPOR KOMPLEKSİ-MASA 1",
+    "facility_name": "HAKKI BAŞAR SPOR KOMPLEKSİ",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "HALKALI YÜZME HAVUZU-MASA 1",
+    "facility_name": "HALKALI YÜZME HAVUZU",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "HALKALI YÜZME HAVUZU-MASA 2",
+    "facility_name": "HALKALI YÜZME HAVUZU",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "HALKALI YÜZME HAVUZU-MASA 3",
+    "facility_name": "HALKALI YÜZME HAVUZU",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "HALKALI YÜZME HAVUZU-MASA 4",
+    "facility_name": "HALKALI YÜZME HAVUZU",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "HİDAYET TÜRKOĞLU SPOR TESİSİ-MASA 1",
+    "facility_name": "HİDAYET TÜRKOĞLU SPOR TESİSİ",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "HİDAYET TÜRKOĞLU SPOR TESİSİ-MASA 2",
+    "facility_name": "HİDAYET TÜRKOĞLU SPOR TESİSİ",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "HİDAYET TÜRKOĞLU SPOR TESİSİ-MASA 3",
+    "facility_name": "HİDAYET TÜRKOĞLU SPOR TESİSİ",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "KARTAL HASAN DOĞAN SPOR KOMPLEKSİ-MASA 1",
+    "facility_name": "KARTAL HASAN DOĞAN SPOR KOMPLEKSİ",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "KARTAL HASAN DOĞAN SPOR KOMPLEKSİ-MASA 2",
+    "facility_name": "KARTAL HASAN DOĞAN SPOR KOMPLEKSİ",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "METİN OKTAY SPOR TESİSİ-MASA 1",
+    "facility_name": "METİN OKTAY SPOR TESİSİ",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "METİN OKTAY SPOR TESİSİ-MASA 2",
+    "facility_name": "METİN OKTAY SPOR TESİSİ",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "PENDİK KURTKÖY SPOR KOMPLEKSİ-MASA 1",
+    "facility_name": "PENDİK KURTKÖY SPOR KOMPLEKSİ",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "PENDİK KURTKÖY SPOR KOMPLEKSİ-MASA 2",
+    "facility_name": "PENDİK KURTKÖY SPOR KOMPLEKSİ",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "PENDİK KURTKÖY SPOR KOMPLEKSİ-MASA 3",
+    "facility_name": "PENDİK KURTKÖY SPOR KOMPLEKSİ",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "PENDİK KURTKÖY SPOR KOMPLEKSİ-MASA 4",
+    "facility_name": "PENDİK KURTKÖY SPOR KOMPLEKSİ",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "SEFAKÖY YÜZME HAVUZU-MASA 1",
+    "facility_name": "SEFAKÖY YÜZME HAVUZU",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "SEFAKÖY YÜZME HAVUZU-MASA 2",
+    "facility_name": "SEFAKÖY YÜZME HAVUZU",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "SEFAKÖY YÜZME HAVUZU-MASA 3",
+    "facility_name": "SEFAKÖY YÜZME HAVUZU",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "ŞİLE SPOR KOMPLEKSİ-MASA 1",
+    "facility_name": "ŞİLE SPOR KOMPLEKSİ",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "ŞİLE SPOR KOMPLEKSİ-MASA 2",
+    "facility_name": "ŞİLE SPOR KOMPLEKSİ",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "ŞİLE SPOR KOMPLEKSİ-MASA 3",
+    "facility_name": "ŞİLE SPOR KOMPLEKSİ",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "TUZLA KAFKALE SPOR KOMPLEKSİ-MASA 1",
+    "facility_name": "TUZLA KAFKALE SPOR KOMPLEKSİ",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "TUZLA KAFKALE SPOR KOMPLEKSİ-MASA 2",
+    "facility_name": "TUZLA KAFKALE SPOR KOMPLEKSİ",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "TUZLA KAFKALE SPOR KOMPLEKSİ-MASA 3",
+    "facility_name": "TUZLA KAFKALE SPOR KOMPLEKSİ",
+    "price": 50
+  },
+  {
+    "sport_type": "MASA TENİSİ",
+    "original_field": "TUZLA KAFKALE SPOR KOMPLEKSİ-MASA 4",
+    "facility_name": "TUZLA KAFKALE SPOR KOMPLEKSİ",
+    "price": 50
+  },
+  {
+    "sport_type": "TENİS ÇALIŞMA DUVARI",
+    "original_field": "Maltepe Sahil Spor Tesisi- Tenis Çalışma Duvarı 1",
+    "facility_name": "Maltepe Sahil Spor Tesisi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS ÇALIŞMA DUVARI",
+    "original_field": "Maltepe Sahil Spor Tesisi- Tenis Çalışma Duvarı 2",
+    "facility_name": "Maltepe Sahil Spor Tesisi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS ÇALIŞMA DUVARI",
+    "original_field": "Maltepe Sahil Spor Tesisi- Tenis Çalışma Duvarı 3",
+    "facility_name": "Maltepe Sahil Spor Tesisi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Avcılar Spor Kompleksi - Açık Tenis Kortu",
+    "facility_name": "Avcılar Spor Kompleksi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Avcılar Spor Kompleksi - Kapalı Tenis Kortu 1",
+    "facility_name": "Avcılar Spor Kompleksi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Avcılar Spor Kompleksi - Kapalı Tenis Kortu 2",
+    "facility_name": "Avcılar Spor Kompleksi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Bayrampaşa Spor Kompleksi - Kapalı Tenis Kortu",
+    "facility_name": "Bayrampaşa Spor Kompleksi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Bayrampaşa Spor Kompleksi - Açık Tenis Kortu",
+    "facility_name": "Bayrampaşa Spor Kompleksi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Bostancı Sahil Spor Kompleksi - Açık Tenis Kortu 1",
+    "facility_name": "Bostancı Sahil Spor Kompleksi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Cemal Kamacı Spor Kompleksi - Açık Tenis Kortu 1",
+    "facility_name": "Cemal Kamacı Spor Kompleksi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Florya Spor Tesisi- Açık Tenis Kortu 1",
+    "facility_name": "Florya Spor Tesisi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Florya Spor Tesisi- Kapalı Tenis Kortu 1",
+    "facility_name": "Florya Spor Tesisi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Florya Spor Tesisi- Kapalı Tenis Kortu 2",
+    "facility_name": "Florya Spor Tesisi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Florya Spor Tesisi- Kapalı Tenis Kortu 3",
+    "facility_name": "Florya Spor Tesisi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Florya Spor Tesisi- Kapalı Tenis Kortu 4",
+    "facility_name": "Florya Spor Tesisi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Florya Spor Tesisi- Kapalı Tenis Kortu 5",
+    "facility_name": "Florya Spor Tesisi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Florya Spor Tesisi- Kapalı Tenis Kortu 6",
+    "facility_name": "Florya Spor Tesisi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Güzelce Spor Tesisi - Kapalı Tenis Kortu 1",
+    "facility_name": "Güzelce Spor Tesisi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Güzelce Spor Tesisi - Kapalı Tenis Kortu 2",
+    "facility_name": "Güzelce Spor Tesisi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Kaynarca Spor Tesisi - Açık Tenis Kortu 1",
+    "facility_name": "Kaynarca Spor Tesisi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Kaynarca Spor Tesisi - Açık Tenis Kortu 2",
+    "facility_name": "Kaynarca Spor Tesisi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Maltepe Sahil Spor Tesisi- Açık Tenis Kortu 1",
+    "facility_name": "Maltepe Sahil Spor Tesisi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Maltepe Sahil Spor Tesisi- Kapalı Tenis Kortu 1",
+    "facility_name": "Maltepe Sahil Spor Tesisi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Maltepe Sahil Spor Tesisi- Kapalı Tenis Kortu 2",
+    "facility_name": "Maltepe Sahil Spor Tesisi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Maltepe Sahil Spor Tesisi- Kapalı Tenis Kortu 3",
+    "facility_name": "Maltepe Sahil Spor Tesisi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Maltepe Sahil Spor Tesisi- Kapalı Tenis Kortu 4",
+    "facility_name": "Maltepe Sahil Spor Tesisi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Maltepe Sahil Spor Tesisi- Kapalı Tenis Kortu 5",
+    "facility_name": "Maltepe Sahil Spor Tesisi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Maltepe Sahil Spor Tesisi- Kapalı Tenis Kortu 6",
+    "facility_name": "Maltepe Sahil Spor Tesisi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Metin Oktay Spor Tesisi - Kapalı Tenis Kortu 1",
+    "facility_name": "Metin Oktay Spor Tesisi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Metin Oktay Spor Tesisi - Kapalı Tenis Kortu 2",
+    "facility_name": "Metin Oktay Spor Tesisi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Pendik Çamlık Spor Tesisi - Açık Tenis Kortu 1",
+    "facility_name": "Pendik Çamlık Spor Tesisi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Pendik Çamlık Spor Tesisi - Açık Tenis Kortu 2",
+    "facility_name": "Pendik Çamlık Spor Tesisi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Pendik Çamlık Spor Tesisi - Açık Tenis Kortu 3",
+    "facility_name": "Pendik Çamlık Spor Tesisi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Pendik Çamlık Spor Tesisi - Açık Tenis Kortu 4",
+    "facility_name": "Pendik Çamlık Spor Tesisi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Pendik Sahil Spor Tesisi - Açık Tenis Kortu 1",
+    "facility_name": "Pendik Sahil Spor Tesisi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Silivri Müjdat Spor Tesisi - Kapalı Tenis Kortu 1",
+    "facility_name": "Silivri Müjdat Spor Tesisi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Silivri Müjdat Spor Tesisi - Kapalı Tenis Kortu 2",
+    "facility_name": "Silivri Müjdat Spor Tesisi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Silivri Müjdat Spor Tesisi - Kapalı Tenis Kortu 3",
+    "facility_name": "Silivri Müjdat Spor Tesisi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Sultanbeyli 100. Yıl Spor Kompleksi -  Kapalı Tenis Kortu 1",
+    "facility_name": "Sultanbeyli 100. Yıl Spor Kompleksi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Sultanbeyli 100. Yıl Spor Kompleksi -  Kapalı Tenis Kortu 2",
+    "facility_name": "Sultanbeyli 100. Yıl Spor Kompleksi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Sultanbeyli 100. Yıl Spor Kompleksi - Kapalı Tenis Kortu 3",
+    "facility_name": "Sultanbeyli 100. Yıl Spor Kompleksi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Sultanbeyli Gölet Spor Kompleksi -  Tenis Kortu 1",
+    "facility_name": "Sultanbeyli Gölet Spor Kompleksi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Sultanbeyli Gölet Spor Kompleksi -  Tenis Kortu 2",
+    "facility_name": "Sultanbeyli Gölet Spor Kompleksi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Tuzla Kafkale Spor Kompleksi -  Tenis Kortu 1",
+    "facility_name": "Tuzla Kafkale Spor Kompleksi",
+    "price": 2500
+  },
+  {
+    "sport_type": "TENİS",
+    "original_field": "Tuzla Sahil Spor Kompleksi -  Tenis Kortu 1",
+    "facility_name": "Tuzla Sahil Spor Kompleksi",
+    "price": 2500
+  },
+  {
+    "sport_type": "STAD KİRALAMA",
+    "original_field": "İBB Beyoğlu Stad - Stad",
+    "facility_name": "İBB Beyoğlu Stad",
+    "price": 4000
+  },
+  {
+    "sport_type": "STAD KİRALAMA",
+    "original_field": "Maltepe Spor Sahili - Stad",
+    "facility_name": "Maltepe Spor Sahili",
+    "price": 4000
+  }
+]

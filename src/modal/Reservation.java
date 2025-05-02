@@ -3,6 +3,7 @@ import java.util.*;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
+// Comparable Class'ının  "compareTo" metodunu kullanabilmek için içine kıyaslayacağımız classın adını yazıyoruz.
 public class Reservation implements Comparable<Reservation> {
     private String reservationId;
     private String userId;
@@ -63,7 +64,7 @@ public class Reservation implements Comparable<Reservation> {
                 reservationId, fieldName, facilityName, 
                 startTime.format(formatter), endTime.format(formatter), fee);
     }
-    
+    // override metod. Saha koduna göre sıralıyor.
     @Override
     public int compareTo(Reservation other) {
         // Önce saha koduna göre sıralama

@@ -17,6 +17,10 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class UserManager {
+	//Username'e göre userları hashmap olarak tutuyoruz.
+	//Map şeklinde tutmamızın sebebi hashmaplarin verimliliğin çok yüksek olması.
+	//Arama işlemlerinde O(1) zaman karmaşıklığına sahiptirler.
+	//Ve kayıt sırasına kullanıcı adının alınıp alınmadığına bakarken işlem kolaylaşır.
     private Map<String, User> users; // username -> User
     private User currentUser;
 
