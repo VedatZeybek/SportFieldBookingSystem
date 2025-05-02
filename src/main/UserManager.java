@@ -17,11 +17,8 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class UserManager {
-	//Username'e göre userları hashmap olarak tutuyoruz.
-	//Map şeklinde tutmamızın sebebi hashmaplarin verimliliğin çok yüksek olması.
-	//Arama işlemlerinde O(1) zaman karmaşıklığına sahiptirler.
-	//Ve kayıt sırasına kullanıcı adının alınıp alınmadığına bakarken işlem kolaylaşır.
-    private Map<String, User> users; // username -> User
+	
+    private Map<String, User> users; 
     private User currentUser;
 
     public UserManager() {
@@ -31,7 +28,7 @@ public class UserManager {
 
     public boolean registerUser(String username, String password, String fullName, String email, String phoneNumber) {
         if (users.containsKey(username)) {
-            return false; // Kullanıcı adı zaten alınmış
+            return false; 
         }
         
         User newUser = new User(username, password, fullName, email, phoneNumber);
@@ -60,7 +57,6 @@ public class UserManager {
         return currentUser != null;
     }
     
-    // Bakiye yükleme işlemi
     public boolean addBalance(int amount) {
         if (currentUser != null && amount > 0) {
             currentUser.addToBalance(amount);
@@ -69,7 +65,6 @@ public class UserManager {
         return false;
     }
     
-    // JSON'a kaydetme
     public void saveUsersToJson(String filename) {
         try {
             Gson gson = new GsonBuilder().setPrettyPrinting().create();
@@ -81,7 +76,6 @@ public class UserManager {
         }
     }
     
-    // JSON'dan yükleme
     public void loadUsersFromJson(String filename) {
         try {
             Gson gson = new Gson();

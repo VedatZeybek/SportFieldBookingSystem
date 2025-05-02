@@ -88,7 +88,7 @@ public class UserService {
         System.out.println("0. Back to Main Menu");
         
         int choice = scanner.nextInt();
-        scanner.nextLine(); // Buffer temizleme
+        scanner.nextLine();
         
         switch (choice) {
             case 1:

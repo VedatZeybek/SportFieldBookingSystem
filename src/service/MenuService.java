@@ -43,7 +43,7 @@ public class MenuService {
                 choice = Integer.parseInt(input);
             } catch (NumberFormatException e) {
                 System.out.println("Invalid input. Please enter a number.");
-                continue ; // Menüye dön
+                continue ; 
             }
 
             switch (choice) {
@@ -73,7 +73,7 @@ public class MenuService {
                     break;
                 case 9:
                     authService.logout();
-                    return; // Menüden çık
+                    return; 
                 case 0:
                     System.exit(0);
                     break;
@@ -86,7 +86,7 @@ public class MenuService {
     private void timeSleepMethod()
     {
     	try {
-    	    TimeUnit.SECONDS.sleep(1); // 1 saniye durur
+    	    TimeUnit.SECONDS.sleep(1); 
     	} catch (InterruptedException e) {
     	    e.printStackTrace();
     	}

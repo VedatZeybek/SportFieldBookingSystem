@@ -40,11 +40,9 @@ public class BookingService {
             
             System.out.println("\n=== BOOK A FIELD ===");
             
-            // 1. Spor tipini seç
             SportType selectedType = sportSelectionService.selectSport(scanner);
             if (selectedType == null) return;
             
-            // 2. Tesis seç
             List<Facility> facilities = sportManager.getFacilities(selectedType);
             if (facilities == null || facilities.isEmpty()) {
                 System.out.println("❌ No facilities available for this sport type.");
@@ -54,7 +52,6 @@ public class BookingService {
             Facility selectedFacility = facilitySelectionService.selectFacility(scanner, facilities);
             if (selectedFacility == null) return;
             
-            // 3. Saha seç
             List<Field> availableFields = selectedFacility.getAvailableFields();
             if (availableFields == null || availableFields.isEmpty()) {
                 System.out.println("❌ No available fields at this facility.");
@@ -64,20 +61,17 @@ public class BookingService {
             Field selectedField = fieldSelectionService.selectField(scanner, availableFields);
             if (selectedField == null) return;
             
-            // Seçilen sahanın fiyatını al
             int fieldPrice = selectedField.getPrice();
             if (fieldPrice < 0) {
                 System.out.println("❌ Invalid field price. Please contact support.");
                 return;
             }
             
-            // 4. Bakiye kontrolü
             if (currentUser.getBalance() < fieldPrice) {
                 System.out.println("❌ Insufficient balance. Please add funds to your account.");
                 return;
             }
             
-            // 5. Zaman dilimi seç
             TimeSlot timeSlot = null;
             try {
                 timeSlot = timeSlotService.selectTimeSlot(scanner);
@@ -92,14 +86,12 @@ public class BookingService {
             
             if (timeSlot == null) return;
             
-            // Geçerli tarih/saat kontrolü
-         // LocalDateTime için
+           
             LocalDateTime currentTime = LocalDateTime.now();
             if (timeSlot.getStartTime().isBefore(currentTime)) {
                 System.out.println("❌ Cannot book a field in the past. Please select a future time slot.");
                 return;
             }
-            // 6. Control the collision
             String fieldCode = selectedField.getCode();
             if (fieldCode == null || fieldCode.isEmpty()) {
                 System.out.println("❌ Invalid field code. Please contact support.");
@@ -112,7 +104,6 @@ public class BookingService {
                 return;
             }
             
-            // 7. Rezervasyon oluştur
             try {
                 currentUser.deductFromBalance(fieldPrice);
                 reservationCreationService.createReservation(
@@ -126,12 +117,11 @@ public class BookingService {
                 );
             } catch (Exception e) {
                 System.out.println("❌ Error creating reservation: " + e.getMessage());
-                // Hata durumunda bakiyeyi geri yükle
                 currentUser.addToBalance(fieldPrice);
             }
         } catch (InputMismatchException e) {
             System.out.println("❌ Invalid input format. Please enter the correct type of data.");
-            scanner.nextLine(); // Scanner'ı temizle
+            scanner.nextLine(); 
         } catch (Exception e) {
             System.out.println("❌ An unexpected error occurred: " + e.getMessage());
         }

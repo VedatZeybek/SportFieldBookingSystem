@@ -16,14 +16,12 @@ public class DataService {
     }
     
     public void loadData() {
-        // Veri dosyalarını yükleme
         sportManager.loadFieldsFromJson("Sports_Fields_With_Prices.json");
         userManager.loadUsersFromJson("Users.json");
         reservationManager.loadReservationsFromJson("Reservations.json");
     }
     
     public void saveData() {
-        // Çıkış yaparken verileri kaydet
         userManager.saveUsersToJson("Users.json");
         reservationManager.saveReservationsToJson("Reservations.json");
     }

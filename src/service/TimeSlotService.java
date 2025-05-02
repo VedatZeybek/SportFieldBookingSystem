@@ -12,7 +12,6 @@ import modal.TimeSlot;
 public class TimeSlotService {
     
     public TimeSlot selectTimeSlot(Scanner scanner) {
-        // Tarih seçimi
         System.out.println("\nSelect a Date:");
         LocalDate today = LocalDate.now();
         List<LocalDate> allowedDates = new ArrayList<>();
@@ -26,7 +25,6 @@ public class TimeSlotService {
         if (dateChoice < 1 || dateChoice > 5) return null;
         LocalDate reservationDate = allowedDates.get(dateChoice - 1);
 
-        // Saat dilimi seçimi
         System.out.println("\nSelect Hour Slot (Each is 1 hour):");
         int[] slots = {18, 19, 20, 21, 22};
         for (int h = 0; h < slots.length; h++) {

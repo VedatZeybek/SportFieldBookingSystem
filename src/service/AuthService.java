@@ -7,9 +7,8 @@ import main.*;
 public class AuthService {
     private final UserManager userManager;
     
-    // Format doğrulama için regex desenleri
     private static final String EMAIL_REGEX = "^[a-zA-Z0-9_+&*-]+(?:\\.[a-zA-Z0-9_+&*-]+)*@(?:[a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,7}$";
-    private static final String PHONE_REGEX = "^\\+?[0-9]{10,15}$"; // 10-15 rakam ve opsiyonel + ile başlayan
+    private static final String PHONE_REGEX = "^\\+?[0-9]{10,15}$"; 
     private static final String PASSWORD_REGEX = "^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=])(?=\\S+$).{8,}$";
     
     public AuthService(UserManager userManager) {
@@ -64,11 +63,9 @@ public class AuthService {
     public void registerUser(Scanner scanner) {
         System.out.println("\n=== USER REGISTRATION ===");
         
-        // Kullanıcı adı girişi
         System.out.print("Enter username: ");
         String username = scanner.nextLine();
         
-        // Şifre girişi ve doğrulama
         String password;
         while (true) {
             System.out.print("Enter password (min 8 chars, must contain uppercase, lowercase, number and special char): ");
@@ -93,11 +90,9 @@ public class AuthService {
             }
         }
         
-        // Tam ad girişi
         System.out.print("Enter full name: ");
         String fullName = scanner.nextLine();
         
-        // E-posta girişi ve doğrulama
         String email;
         while (true) {
             System.out.print("Enter email (example@domain.com): ");
@@ -110,7 +105,6 @@ public class AuthService {
             }
         }
         
-        // Telefon numarası girişi ve doğrulama
         String phoneNumber;
         while (true) {
             System.out.print("Enter phone number (10-15 digits, optional + prefix): ");
@@ -123,7 +117,6 @@ public class AuthService {
             }
         }
         
-        // Kullanıcı kaydını oluştur
         if (userManager.registerUser(username, password, fullName, email, phoneNumber)) {
             System.out.println("Registration successful! Please login.");
         } else {
@@ -131,17 +124,14 @@ public class AuthService {
         }
     }
     
-    // E-posta formatını doğrula
     private boolean isValidEmail(String email) {
         return Pattern.compile(EMAIL_REGEX).matcher(email).matches();
     }
     
-    // Telefon numarası formatını doğrula
     private boolean isValidPhoneNumber(String phoneNumber) {
         return Pattern.compile(PHONE_REGEX).matcher(phoneNumber).matches();
     }
     
-    // Şifre formatını doğrula
     private boolean isValidPassword(String password) {
         return Pattern.compile(PASSWORD_REGEX).matcher(password).matches();
     }

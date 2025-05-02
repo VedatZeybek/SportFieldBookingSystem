@@ -28,14 +28,12 @@ import java.io.IOException;
 import java.io.File;
 
 public class ReservationManager {
-	//Rezervasyonları tree yapısında tutuyoruz.
     private Set<Reservation> reservations;
 
     public ReservationManager() {
         this.reservations = new TreeSet<>();
     }
     
-    //Uygunluk durumuna göre rezervasyonları ekliyoruz.
     public boolean addReservation(Reservation reservation) {
         if (isFieldAvailable(reservation.getFieldCode(), reservation.getStartTime(), reservation.getEndTime())) {
             reservations.add(reservation);
@@ -50,12 +48,9 @@ public class ReservationManager {
     }
     
 
-    //Rezervasyon tarihlerinde çakışma kontrolü yapılıyor.
     public boolean isFieldAvailable(String fieldCode, LocalDateTime startTime, LocalDateTime endTime) {
         for (Reservation reservation : reservations) {
             if (reservation.getFieldCode().equals(fieldCode)) {
-                // Çakışma: Yeni rezervasyonun başlangıcı, mevcut rezervasyonun bitişinden önce
-                // ve yeni rezervasyonun bitişi, mevcut rezervasyonun başlangıcından sonra
                 boolean overlap = !(endTime.isBefore(reservation.getStartTime()) || 
                                    startTime.isAfter(reservation.getEndTime()));
                 if (overlap) {
@@ -66,7 +61,6 @@ public class ReservationManager {
         return true;
     }
 
-    //Rezervasyonları list halinde sana return eder.
     public List<Reservation> getUserReservations(String userId) {
         List<Reservation> userReservations = new ArrayList<>();
         for (Reservation r : reservations) {
@@ -77,7 +71,6 @@ public class ReservationManager {
         return userReservations;
     }
 
-    //Rezervasyonları json dosyasına kaydedersin.
     public void saveReservationsToJson(String filename) {
         try {
             Gson gson = new GsonBuilder()
@@ -93,7 +86,6 @@ public class ReservationManager {
         }
     }
 
-    //Rezervasyonları json dosyasından çekersin.
     public void loadReservationsFromJson(String filename) {
         try {
             File file = new File(filename);
@@ -135,8 +127,6 @@ public class ReservationManager {
     }
 }
 
-//Json dosyasına kaydederken serializer kullanmamız gerekir.
-//LocalDateTime gibi özel (non-primitive) sınıflar için serializer gerekir. Ama String, int, boolean gibi temel türler için gerekmez.
 
 class LocalDateTimeAdapter implements JsonSerializer<LocalDateTime>, JsonDeserializer<LocalDateTime> {
     @Override

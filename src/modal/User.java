@@ -18,10 +18,9 @@ public class User {
 		this.fullName = fullName;
 		this.email = email;
 		this.phoneNumber = phoneNumber;
-		this.balance = 0; // Başlangıç bakiyesi
+		this.balance = 0; 
 	}
 
-	// Getter ve setter metodları
 	public String getUserId() { 
 		return userId; 
 		}

@@ -16,7 +16,6 @@ import modal.Field;
 import modal.SportType;
 
 public class SportManager {
-	//Spor tipine göre tesisleri hashMap şeklinde tutuyoruz. (Tesisler de aynı zamanda kendi içinde sahaları tutuyor.)
     private Map<SportType, List<Facility>> sportFacilities;
 
     public SportManager() {
@@ -26,15 +25,10 @@ public class SportManager {
         }
     }
 
-    public void addFacility(SportType type, Facility facility) {
-        sportFacilities.get(type).add(facility);
-    }
-
     public List<Facility> getFacilities(SportType type) {
         return sportFacilities.get(type);
     }
 
-    //tesisleri json dosyasından çekiyoruz.
     public void loadFieldsFromJson(String filename) {
         try {
             Gson gson = new Gson();

@@ -64,15 +64,12 @@ public class Reservation implements Comparable<Reservation> {
                 reservationId, fieldName, facilityName, 
                 startTime.format(formatter), endTime.format(formatter), fee);
     }
-    // override metod. Saha koduna göre sıralıyor.
     @Override
     public int compareTo(Reservation other) {
-        // Önce saha koduna göre sıralama
         int fieldCodeComparison = this.fieldCode.compareTo(other.fieldCode);
         if (fieldCodeComparison != 0) {
             return fieldCodeComparison;
         }
-        // Saha kodu aynıysa, başlangıç zamanına göre sıralama
         return this.startTime.compareTo(other.startTime);
     }
 }
