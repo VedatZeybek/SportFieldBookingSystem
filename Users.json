@@ -21,10 +21,10 @@
     "userId": "f77802bd",
     "username": "ved",
     "password": "Vedat123$",
-    "fullName": "vedat zeybek",
+    "fullName": "Vedat Zeybek",
     "email": "vedatzeybek@gmail.com",
     "phoneNumber": "05454762136",
-    "balance": 0
+    "balance": 47100
   },
   "goktuk": {
     "userId": "b3b3cca0",
@@ -42,6 +42,6 @@
     "fullName": "Vedat Zeybek",
     "email": "vedatzeybek20@gmail.com",
     "phoneNumber": "05454762136",
-    "balance": 1500
+    "balance": 48500
   }
 }
